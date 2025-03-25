@@ -11,3 +11,13 @@ node_modules/
 *.log
 .idea
 .vscode
+
+# Archivos generados por TypeScript
+*.js
+*.js.map
+!*.config.js
+
+# Archivos de pruebas
+coverage/
+*.test.js
+*.spec.js
