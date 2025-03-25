@@ -1,0 +1,13 @@
+# Ignorar la carpeta dist
+dist/
+
+# Ignorar la carpeta node_modules
+node_modules/
+
+# Otros archivos/folders comunes a ignorar
+.DS_Store
+.env
+.env.local
+*.log
+.idea
+.vscode
