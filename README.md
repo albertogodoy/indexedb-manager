@@ -207,7 +207,7 @@ npm run dev
 
 ## Licencia  
 
-MIT © 2023 Tu Nombre  
+MIT © 2023 Alberto Godoy  
 
 ## Soporte  
 
