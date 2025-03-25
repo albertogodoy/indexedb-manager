@@ -199,7 +199,7 @@ const myDB = new Database({
 5. Abre un Pull Request  
 
 ```bash  
-git clone https://github.com/tu-usuario/indexdb-manager.git  
+git clone https://github.com/albertogodoy/indexedb-manager.git  
 cd indexdb-manager  
 npm install  
 npm run dev  
@@ -211,5 +211,5 @@ MIT © 2023 Alberto Godoy
 
 ## Soporte  
 
-- [Issues en GitHub](https://github.com/albertogodoy/indexdb-manager/issues)  
+- [Issues en GitHub](https://github.com/albertogodoy/indexedb-manager/issues)  
 - soporte@indexdb-manager.com
