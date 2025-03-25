@@ -1,5 +1,5 @@
 {
-  "name": "indexdb-manager",
+  "name": "indexed-database-manager",
   "version": "1.0.0",
   "description": "A TypeScript wrapper for IndexedDB with CRUD operations",
   "main": "dist/index.js",
