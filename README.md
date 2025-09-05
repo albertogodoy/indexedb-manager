@@ -23,9 +23,9 @@
 ## Instalación  
 
 ```bash  
-npm install indexdb-manager  
+npm install indexed-database-manager 
 # o  
-yarn add indexdb-manager  
+yarn add indexed-database-manager  
 ```  
 
 ## Uso Básico  
@@ -33,7 +33,7 @@ yarn add indexdb-manager
 ### 1. Creación de una Base de Datos  
 
 ```typescript  
-import { Database, Table, Column } from 'indexdb-manager';  
+import { Database, Table, Column } from 'indexed-database-manager';  
 
 const myDB = new Database({  
   name: 'MyAppDB',  
@@ -62,7 +62,7 @@ const db = await myDB.connect();
 
 ```jsx  
 import { useEffect, useState } from 'react';  
-import { Database } from 'indexdb-manager';  
+import { Database } from 'indexed-database-manager';  
 
 function UserList() {  
   const [users, setUsers] = useState([]);  
@@ -92,7 +92,7 @@ function UserList() {
 
 ```typescript  
 import { Injectable } from '@angular/core';  
-import { Database } from 'indexdb-manager';  
+import { Database } from 'indexed-database-manager';  
 
 @Injectable({ providedIn: 'root' })  
 export class DataService {  
@@ -114,7 +114,7 @@ export class DataService {
 ```vue  
 <script setup>  
 import { ref, onMounted } from 'vue';  
-import { Database } from 'indexdb-manager';  
+import { Database } from 'indexed-database-manager';  
 
 const users = ref([]);  
 
@@ -185,10 +185,6 @@ const myDB = new Database({
 - Safari 7.1+  
 - Edge 12+  
 - Opera 15+  
-
-## Demo en Vivo  
-
-[Pruébalo online](https://demo.indexdb-manager.com)  
 
 ## Contribuciones  
 
