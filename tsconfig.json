@@ -4,6 +4,7 @@
     "module": "CommonJS",
     "declaration": true,
     "outDir": "./dist",
+    "rootDir": "./src",  // <--- Agrega esta línea
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
